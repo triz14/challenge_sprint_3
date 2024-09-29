@@ -55,6 +55,12 @@ Conexões positivas:
 - Conecte a SDA a porta 21;
 - E por fim conecte o SDl a porta 22.
 
+## Dependências (bibliotecas)
+- PubSubClient;
+- ArduinoJson;
+- ArduinoJson;
+- Você também deve configurar a conexão do wifi de acordo com a rede que vai usar no caso utilizei a própria rede do simulaodr, depois você deve configurar os tópicos seja ele para publicar ou receber informações.
+
 ## Explicação de como funciona o  projeto
 Esse projeto é responsável por enviar informações via mqtt, dessa forma permitindo a comunicação dos sensores com outros programas e até mesmo comandos enviados pelo usuário, também utilizamos o node-red para exibir um dashboard das informações enviadas são elas data e hora 
 ## Link do projeto (simulação)
