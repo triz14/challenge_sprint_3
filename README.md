@@ -61,6 +61,16 @@ Conexões positivas:
 - ArduinoJson;
 - Você também deve configurar a conexão do wifi de acordo com a rede que vai usar no caso utilizei a própria rede do simulaodr, depois você deve configurar os tópicos seja ele para publicar ou receber informações.
 
+## Node-red
+- Vale lembrar que o node-red deve estar instalado na sua máquina porém se você não possui ele basta instalar https://nodered.org/;
+- apos sua instalação no cmd do computador digite node-red e cole o http no browser;
+- algumas biblitecas precisam ser instaladas são elas (node-red-dashboard e node-red-node-serialport);
+- agora basta fazer os fluxos.
+
+## Hivemq
+- basta entrar no site https://www.hivemq.com/demos/websocket-client/;
+- e se inscrever no tópico que deseja seja para publicar informação ou receber.
+
 ## Explicação de como funciona o  projeto
 Esse projeto é responsável por enviar informações via mqtt, dessa forma permitindo a comunicação dos sensores com outros programas e até mesmo comandos enviados pelo usuário, também utilizamos o node-red para exibir um dashboard das informações enviadas são elas data e hora 
 ## Link do projeto (simulação)
